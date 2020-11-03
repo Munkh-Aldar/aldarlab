@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.header-top{
+    background: #FF6D00;
+    height: 76px;
+}
+.container{
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container:after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+.header-large ul li{
+    float: left;
+    padding: 0 10px;
+    list-style: none;
+}
+.header-large ul li a{
+    text-decoration: none;
+    color: #fff;
+}
